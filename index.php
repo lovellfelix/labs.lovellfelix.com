@@ -120,42 +120,8 @@
             When implementing this carousel, remove the images we have provided and replace them with your own.
           </div>
           <hr>
-          
-<pre class="prettyprint linenums">
-$('.carousel').carousel({
-  interval: 2000
-})
-</pre>
-          <h4>.carousel('cycle')</h4>
-          <p>Cycles through the carousel items from left to right.</p>
-          <h4>.carousel('pause')</h4>
-          <p>Stops the carousel from cycling through items.</p>
-          <h4>.carousel(number)</h4>
-          <p>Cycles the carousel to a particular frame (0 based, similar to an array).</p>
-          <h4>.carousel('prev')</h4>
-          <p>Cycles to the previous item.</p>
-          <h4>.carousel('next')</h4>
-          <p>Cycles to the next item.</p>
-          <h3>Events</h3>
-          <p>Bootstrap's carousel class exposes two events for hooking into carousel functionality.</p>
-          <table class="table table-bordered table-striped">
-            <thead>
-             <tr>
-               <th style="width: 150px;">Event</th>
-               <th>Description</th>
-             </tr>
-            </thead>
-            <tbody>
-             <tr>
-               <td>slide</td>
-               <td>This event fires immediately when the <code>slide</code> instance method is invoked.</td>
-             </tr>
-             <tr>
-               <td>slid</td>
-               <td>This event is fired when the carousel has completed its slide transition.</td>
-             </tr>
-            </tbody>
-          </table>
+               
+      
         </div>
       </div>
     </section>
