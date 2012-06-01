@@ -150,21 +150,7 @@
              </tr>
             </tbody>
           </table>
-          <h3>Markup</h3>
-          <p>Data attributes are used for the previous and next conrols. Check out the example markup below.</p>
-<pre class="prettyprint linenums">
-&lt;div id="myCarousel" class="carousel"&gt;
-  &lt;!-- Carousel items --&gt;
-  &lt;div class="carousel-inner"&gt;
-    &lt;div class="active item"&gt;…&lt;/div&gt;
-    &lt;div class="item"&gt;…&lt;/div&gt;
-    &lt;div class="item"&gt;…&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!-- Carousel nav --&gt;
-  &lt;a class="carousel-control left" href="#myCarousel" data-slide="prev"&gt;&amp;lsaquo;&lt;/a&gt;
-  &lt;a class="carousel-control right" href="#myCarousel" data-slide="next"&gt;&amp;rsaquo;&lt;/a&gt;
-&lt;/div&gt;
-</pre>
+          
           <h3>Methods</h3>
           <h4>.carousel(options)</h4>
           <p>Initializes the carousel with an optional options <code>object</code> and starts cycling through items.</p>
