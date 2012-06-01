@@ -87,7 +87,7 @@
           
           
         </div>
-        <div class="span9 columns">
+        <div class="span3 columns">
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
               <div class="item active">
@@ -120,38 +120,7 @@
             When implementing this carousel, remove the images we have provided and replace them with your own.
           </div>
           <hr>
-          <h2>Using bootstrap-carousel.js</h2>
-          <p>Call via javascript:</p>
-          <pre class="prettyprint linenums">$('.carousel').carousel()</pre>
-          <h3>Options</h3>
-          <table class="table table-bordered table-striped">
-            <thead>
-             <tr>
-               <th style="width: 100px;">Name</th>
-               <th style="width: 50px;">type</th>
-               <th style="width: 50px;">default</th>
-               <th>description</th>
-             </tr>
-            </thead>
-            <tbody>
-             <tr>
-               <td>interval</td>
-               <td>number</td>
-               <td>5000</td>
-               <td>The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle.</td>
-             </tr>
-             <tr>
-               <td>pause</td>
-               <td>string</td>
-               <td>"hover"</td>
-               <td>Pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on mouseleave.</td>
-             </tr>
-            </tbody>
-          </table>
           
-          <h3>Methods</h3>
-          <h4>.carousel(options)</h4>
-          <p>Initializes the carousel with an optional options <code>object</code> and starts cycling through items.</p>
 <pre class="prettyprint linenums">
 $('.carousel').carousel({
   interval: 2000
