@@ -82,11 +82,7 @@
     
       </div>
       <div class="row">
-        <div class="span3 columns">
-          <h3>About</h3>
-          
-          
-        </div>
+       
         <div class="span9 columns">
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
@@ -120,10 +116,13 @@
             When implementing this carousel, remove the images we have provided and replace them with your own.
           </div>
           <hr>
-               
-      
         </div>
       </div>
+	   <div class="span3 columns">
+          <h3>About</h3>
+          
+          
+        </div>
     </section>
 
 
