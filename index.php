@@ -87,7 +87,7 @@
           
           
         </div>
-        <div class="span3 columns">
+        <div class="span9 columns">
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
               <div class="item active">
