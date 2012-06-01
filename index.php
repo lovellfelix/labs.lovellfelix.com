@@ -79,17 +79,15 @@
     ================================================== -->
     <section id="carousel">
       <div class="page-header">
-        <h1>Carousel <small>bootstrap-carousel.js</small></h1>
+    
       </div>
       <div class="row">
         <div class="span3 columns">
           <h3>About</h3>
-          <p>A generic plugin for cycling through elements. A merry-go-round.</p>
-          <a href="assets/js/bootstrap-carousel.js" target="_blank" class="btn">Download file</a>
+          
+          
         </div>
         <div class="span9 columns">
-          <h2>Example carousel</h2>
-          <p>Watch the slideshow below.</p>
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
               <div class="item active">
