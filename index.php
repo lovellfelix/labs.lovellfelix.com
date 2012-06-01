@@ -83,7 +83,7 @@
       </div>
       <div class="row">
        
-        <div class="span4 columns">
+        <div class="span12 columns">
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
               <div class="item active">
