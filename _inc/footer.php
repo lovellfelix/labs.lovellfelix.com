@@ -5,7 +5,7 @@
 		<a href="#">Back to top</a>
 	</p>
 	<p>
-		&copy; <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a>,
+		&copy; <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a>
 </footer>
 
 </div><!-- /container -->
