@@ -10,7 +10,7 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 90px;
+  padding-top: 50px;
   background-color: #fff;
   background-image: url(../img/grid-18px-masked.png);
   background-repeat: repeat-x;
@@ -40,7 +40,7 @@ body {
 /* Space out sub-sections more
 -------------------------------------------------- */
 section {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 /* Faded out hr */
@@ -86,15 +86,16 @@ hr.soften {
 
 /* Masthead (docs home) */
 .masthead {
-  padding-top: 36px;
-  margin-bottom: 72px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 .masthead h1,
 .masthead p {
-  text-align: center;
+  text-align: left;
 }
 .masthead h1 {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
+  color: #000;
 }
 .masthead p {
   margin-left: 5%;

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>labs - Lovell Felix</title>
+    <title>labs · Lovell Felix Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -31,63 +31,71 @@
 
   <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="./index.html">labs</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active">
-                <a href="./index.html">Overview</a>
-              </li>
-              <li class="">
-                <a href="./scaffolding.html">Scaffolding</a>
-              </li>
-              <li class="">
-                <a href="./base-css.html">Base CSS</a>
-              </li>
-              <li class="">
-                <a href="./components.html">Components</a>
-              </li>
-              <li class="">
-                <a href="./javascript.html">Javascript plugins</a>
-              </li>
-              <li class="">
-                <a href="./less.html">Using LESS</a>
-              </li>
-              <li class="divider-vertical"></li>
-              <li class="">
-                <a href="./download.html">Customize</a>
-              </li>
-              <li class="">
-                <a href="./examples.html">Examples</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+   	<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					
+					<ul class="nav">
+						<li class="">
+							<a href="#">labs · Lovell Felix</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
 
     <div class="container">
 
-     <!-- Carousel
+     <!-- Navigation list
     ================================================== -->
-    <section id="carousel">
-      <div class="page-header">
-    
-      </div>
-           
-        <div class="span9 columns">
+    <div class="inner">
+    	  <div class="page-header jumbotron masthead">
+					<h1>labs</h1> <small>
+						<blockquote>Playground where prospective clients and users can play around with prototypes of some of my wild and crazy ideas and offer feedback. </small></blockquote>
+				</div>
+				<div class="row">
+					<div class="span3 columns">
+					
+				<ul class="nav nav-list">
+							<li>
+								<a href="#"> <i class="icon-home"></i> Home </a>
+							</li>
+							<li>
+								<a href="#"> <i class="icon-pencil"></i> Applications </a>
+							</li>
+							<li>
+								<a href="http://lovellfelix.com" target="_blank"> <i class="icon-user"></i> Resume </a>
+							</li>
+							<li>
+								<a href="http://lovellfelix.com" target="_blank"> <i class="icon-envelope"></i> Contact </a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#"> <i class="icon-question-sign"></i> Help </a>
+							</li>
+
+						</ul>
+						
+						<br />
+						<br />
+						<blockquote>
+							<p>
+								"The beautiful thing about learning is no one can take it away from you" 
+							</p>
+							<small>B. B. King</small>
+						</blockquote>
+											
+					</div>
+ <!-- Carousel
+    ================================================== -->
+    <section id="carousel" class="">
+             <div class="span9 columns">
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
-              <div class="item active">
+              <div class="item active"><a href="http://www.natural-environment.com/places/milford_sound.php" target="_blank">
                 <img src="assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
-                <div class="carousel-caption">
+                <div class="carousel-caption"></a>
                   <h4>First Thumbnail label</h4>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 </div>
@@ -110,18 +118,11 @@
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
           </div>
-          <div class="alert alert-info">
-            <strong>Heads up!</strong>
-            When implementing this carousel, remove the images we have provided and replace them with your own.
-          </div>
-          
+                  
+                    
         </div>
       </div>
-	   <div class="span3 columns">
-          <h3>About</h3>
-          
-          
-        </div>
+
     </section>
 
 
@@ -129,22 +130,11 @@
 ================================================== -->
 <header class="jumbotron masthead">
   <div class="inner">
-    <h1>Bootstrap, from Twitter</h1>
-    <p>Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.</p>
-    <p class="download-info">
-      <a href="https://github.com/twitter/bootstrap/" class="btn btn-primary btn-large">View project on GitHub</a>
-      <a href="assets/bootstrap.zip" class="btn btn-large">Download Bootstrap <small>(v2.0.3)</small></a>
-    </p>
+    
   </div>
 
-  <div class="bs-links">
-    <ul class="quick-links">
-      <li><a href="./upgrading.html">Upgrading from 1.4</a></li>
-      <li><a href="https://github.com/twitter/bootstrap/zipball/master">Download with docs</a></li>
-      <li><a href="http://blog.getbootstrap.com">Read the blog</a></li>
-      <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Submit issues</a></li>
-      <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap and changelog</a></li>
-    </ul>
+  <!--<div class="bs-links">
+   
     <ul class="quick-links">
       <li>
         <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=twitter&repo=bootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="112px" height="20px"></iframe>
@@ -159,10 +149,10 @@
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitter.github.com/bootstrap/" data-count="horizontal" data-via="twbootstrap" data-related="mdo:Creator of Twitter Bootstrap">Tweet</a>
       </li>
     </ul>
-  </div>
+  </div>-->
 </header>
 
-<hr class="soften">
+<!--<hr class="soften">
 
 <div class="marketing">
   <h1>Designed for everyone, everywhere.</h1>
@@ -183,8 +173,8 @@
       <h2>Cross-everything</h2>
       <p>Originally built with only modern browsers in mind, Bootstrap has evolved to include support for all major browsers (even IE7!) and, with Bootstrap 2, tablets and smartphones, too.</p>
     </div>
-  </div><!--/row-->
-  <div class="row">
+  </div>--><!--/row-->
+  <!--<div class="row">
     <div class="span4">
       <img class="bs-icon" src="assets/img/glyphicons/glyphicons_155_show_thumbnails.png">
       <h2>12-column grid</h2>
@@ -200,8 +190,8 @@
       <h2>Styleguide docs</h2>
       <p>Unlike other front-end toolkits, Bootstrap was designed first and foremost as a styleguide to document not only our features, but best practices and living, coded examples.</p>
     </div>
-  </div><!--/row-->
-  <div class="row">
+  </div>--><!--/row-->
+  <!--<div class="row">
     <div class="span4">
       <img class="bs-icon" src="assets/img/glyphicons/glyphicons_082_roundabout.png">
       <h2>Growing library</h2>
@@ -217,8 +207,8 @@
       <h2>Built on LESS</h2>
       <p>Where vanilla CSS falters, LESS excels. Variables, nesting, operations, and mixins in LESS makes coding CSS faster and more efficient with minimal overhead.</p>
     </div>
-  </div><!--/row-->
-  <div class="row">
+  </div>--><!--/row-->
+  <!--<div class="row">
     <div class="span3">
       <img class="small-bs-icon" src="assets/img/icon-html5.png">
       <h3>HTML5</h3>
@@ -239,12 +229,11 @@
       <h3>Made at Twitter</h3>
       <p>Brought to you by an experienced <a href="http://twitter.com/fat">engineer</a> and <a href="http://twitter.com/mdo">designer</a>.</p>
     </div>
-  </div><!--/row-->
+  </div>--><!--/row-->
 
   <hr class="soften">
 
-  <h1>Built with Bootstrap.</h1>
-  <p class="marketing-byline">For even more sites built with Bootstrap, <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">visit the unofficial Tumblr</a> or <a href="./examples.html">browse the examples</a>.</p>
+  <p class="marketing-byline">Graduated lab Projects</p>
   <ul class="thumbnails example-sites">
     <li class="span3">
       <a class="thumbnail" href="http://soundready.fm/" target="_blank">
@@ -274,10 +263,8 @@
       ================================================== -->
       <footer class="footer">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-      </footer>
+        <p>&copy; <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a>, 
+        	</footer>
 
     </div><!-- /container -->
 
