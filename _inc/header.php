@@ -36,7 +36,7 @@
 
 					<ul class="nav">
 						<li class="">
-							<a href="#">labs · Lovell Felix</a>
+							<a href="/">labs · Lovell Felix</a>
 						</li>
 
 					</ul>
@@ -60,16 +60,16 @@
 
 						<ul class="nav nav-list">
 							<li>
-								<a href="#"> <i class="icon-home"></i> Home </a>
+								<a href="/"> <i class="icon-home"></i> Home </a>
 							</li>
 							<li>
-								<a href="#"> <i class="icon-pencil"></i> Applications </a>
+								<a href="#"> <i class="icon-pencil"></i> Projects </a>
 							</li>
 							<li>
 								<a href="http://lovellfelix.com" target="_blank"> <i class="icon-user"></i> Resume </a>
 							</li>
 							<li>
-								<a href="http://lovellfelix.com" target="_blank"> <i class="icon-envelope"></i> Contact </a>
+								<a href="http://lovellfelix.com/ask"> <i class="icon-envelope"></i> Contact </a>
 							</li>
 							<li class="divider"></li>
 							<li>
@@ -78,9 +78,7 @@
 
 						</ul>
 
-						<br />
-						<br />
-						<blockquote>
+						 <blockquote>
 							<p>
 								"The beautiful thing about learning is no one can take it away from you"
 							</p>

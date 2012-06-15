@@ -364,7 +364,7 @@ h6 {
   margin: 0;
   font-family: inherit;
   font-weight: normal;
-  color: #ffffff;
+  color: #000;
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -1961,7 +1961,7 @@ table .span24 {
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #DDD;
 }
 .dropdown-menu a {
   display: block;
@@ -2758,7 +2758,7 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
   background-color: #ffffff;
   border: 1px solid #ddd;
-  border-bottom-color: transparent;
+  /*border-bottom-color: transparent;*/
   cursor: default;
 }
 .nav-pills > li > a {
@@ -4358,7 +4358,7 @@ div.subnav .nav .open .dropdown-menu li > a:hover {
 }
 .nav-list .divider {
   background-color: transparent;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #DDD;
 }
 .nav-tabs {
   border-bottom: 1px solid #222;
@@ -4366,9 +4366,9 @@ div.subnav .nav .open .dropdown-menu li > a:hover {
 .nav-tabs li > a:hover,
 .nav-tabs li.active > a,
 .nav-tabs li.active > a:hover {
-  border: 1px solid #222;
-  background-color: #33b5e5;
-  color: #ffffff;
+  border: 1px solid #DDD;
+  background-color: #;
+  color: #000;
 }
 .nav-tabs .open .dropdown-toggle {
   background-color: #060606 !important;
@@ -4814,7 +4814,7 @@ blockquote.pull-right {
   border: none;
 }
 footer.footer {
-  border-top: 1px solid #222;
+  border-top: 1px solid #DDD;
 }
 .pull-right {
   float: right;
