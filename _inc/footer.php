@@ -13,22 +13,24 @@
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/google-code-prettify/prettify.js"></script>
-<script src="assets/js/bootstrap-transition.js"></script>
-<script src="assets/js/bootstrap-alert.js"></script>
-<script src="assets/js/bootstrap-modal.js"></script>
-<script src="assets/js/bootstrap-dropdown.js"></script>
-<script src="assets/js/bootstrap-scrollspy.js"></script>
-<script src="assets/js/bootstrap-tab.js"></script>
-<script src="assets/js/bootstrap-tooltip.js"></script>
-<script src="assets/js/bootstrap-popover.js"></script>
-<script src="assets/js/bootstrap-button.js"></script>
-<script src="assets/js/bootstrap-collapse.js"></script>
-<script src="assets/js/bootstrap-carousel.js"></script>
-<script src="assets/js/bootstrap-typeahead.js"></script>
-<script src="assets/js/application.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/jquery.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/google-code-prettify/prettify.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-transition.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-alert.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-modal.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-dropdown.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-scrollspy.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-tab.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-tooltip.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-popover.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-button.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-collapse.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-carousel.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/bootstrap-typeahead.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/application.js" type="text/javascript">
+</script> <script src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/socialite.js" type="text/javascript">
+</script>
 
 </body>
 </html>

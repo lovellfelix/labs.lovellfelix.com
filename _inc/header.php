@@ -5,14 +5,15 @@
 		<title><?php echo $pagetitle; ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="author" content="Lovell Felix">
 
 		<!-- Le styles -->
-		<link href="assets/css/bootstrap.css" rel="stylesheet">
-		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-		<link href="assets/css/docs.css" rel="stylesheet">
-		<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-
+		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/google-buttons.css" rel="stylesheet" type="text/css">
+		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/social.css" rel="stylesheet" type="text/css">
+		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/tumblr.css" rel="stylesheet" type="text/css">
+	    <link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/google-code-prettify/prettify.css" rel="stylesheet" type="textcss">
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
