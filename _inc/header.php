@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="Lovell Felix">
-
+		<meta name="google-site-verification" content="9YghRjUoSHQCXpsX8tUmTfiNFwaRNTp97DOvFxglUjA" />
 		<!-- Le styles -->
 		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/google-buttons.css" rel="stylesheet" type="text/css">
