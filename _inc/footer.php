@@ -1,11 +1,14 @@
 <!-- Footer
 ================================================== -->
 <footer class="footer">
-	<p class="pull-right">
-		<a href="#">Back to top</a>
-	</p>
-	<p>
-		&copy; <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a>
+	<p class="pull-left">
+		&copy; 2012 <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a></p>
+		
+                    <div class="pull-right"">
+					
+                                <a href='http://www.facebook.com/lovell.felix' rel="nofollow" target="blank"><img src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/img/facebook_1.png"></a> <a href="http://twitter.com/lovellfelix"><img src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/img/twitter_1.png"></a> <a href="http://gplus.to/lovell.felix" rel="nofollow" target="blank" title="+"><img src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/img/google_1.png"></a>
+                                <a href="http://blog.lovellfelix.com/rss" rel="nofollow" title="RSS"><img src="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/img/rss_1.png"></a>
+                            </div></div>
 </footer>
 
 </div><!-- /container -->
