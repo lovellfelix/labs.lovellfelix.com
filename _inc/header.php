@@ -8,12 +8,12 @@
 		<meta name="author" content="Lovell Felix">
 		<meta name="google-site-verification" content="9YghRjUoSHQCXpsX8tUmTfiNFwaRNTp97DOvFxglUjA" />
 		<!-- Le styles -->
-		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/google-buttons.css" rel="stylesheet" type="text/css">
-		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/social.css" rel="stylesheet" type="text/css">
-		<link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/css/tumblr.css" rel="stylesheet" type="text/css">
-	    <link href="http://lovellfelix.github.com/tumblr-twitter-bootstrap-theme/assets/js/google-code-prettify/prettify.css" rel="stylesheet" type="textcss">
-		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	 <link href="http://lovellfelix.com/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="http://lovellfelix.com/assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="http://lovellfelix.com/assets/css/google-bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="http://lovellfelix.com/assets/css/lf.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/ls.css" rel="stylesheet" type="text/css">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -31,8 +31,8 @@
 				<div class="container">
 
 					<ul class="nav">
-						<li class="">
-							<a href="/">labs · Lovell Felix</a>
+						<li>
+							<a class="brand" href="/">labs · Lovell Felix</a>
 						</li>
 
 					</ul>
