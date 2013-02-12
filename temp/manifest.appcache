@@ -1,0 +1,53 @@
+# Error: Unknown provider: aProvider <- a
+    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:2627
+    at getService (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2755)
+    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:2632
+    at getService (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2755)
+    at invoke (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2773)
+    at instantiate (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2805)
+    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:4620
+    at update (http://localhost:3501/scripts/vendor/d10639ae.angular.js:13692)
+    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:8002 (undefined, #undefined)
+CACHE MANIFEST
+
+# Time: Tue Feb 12 2013 16:17:58 GMT-0600 (CST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/#/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js
+http://lovellfelix.com/assets/css/bootstrap.css
+http://lovellfelix.com/assets/css/font-awesome.css
+http://lovellfelix.com/assets/css/google-bootstrap.css
+http://lovellfelix.com/assets/css/lf.css
+http://lovellfelix.com/assets/img/facebook_1.png
+http://lovellfelix.com/assets/img/glyphicons-halflings.png
+http://lovellfelix.com/assets/img/google_1.png
+http://lovellfelix.com/assets/img/grid.png
+http://lovellfelix.com/assets/img/linkedin_1.png
+http://lovellfelix.com/assets/img/rss_1.png
+http://lovellfelix.com/assets/img/twitter_1.png
+http://www.google-analytics.com/ga.js
+scripts/b5c2370b.scripts.js
+scripts/vendor/b291a314.angular-resource.js
+scripts/vendor/d10639ae.angular.js
+styles/051c0509.main.css
+
+NETWORK:
+*

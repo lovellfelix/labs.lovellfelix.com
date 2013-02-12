@@ -10,9 +10,20 @@
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width"/>
         <link rel="stylesheet" href="styles/main.css"/>
+        <link rel='me' href='https://plus.google.com/102676824509364241023' />
+        <link href="http://lovellfelix.com/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://lovellfelix.com/assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="http://lovellfelix.com/assets/css/google-bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://lovellfelix.com/assets/css/lf.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="http://lovellfelix.com/assets/img/grav.png">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
 
     </head>
-    <body ng-app="labs.lovellfelix.comApp">
+    <body ng-app="labsApp">
 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -22,20 +33,97 @@
             <script src="scripts/vendor/es5-shim.min.js"></script>
             <script src="scripts/vendor/json3.min.js"></script>
         <![endif]-->
+ <!-- Topbar
+    ================================================== -->
+    <div id="header" class="navbar navbar-fixed-top" data-scrollspy="scrollspy" >
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+           <li><a class="brand" href="/">labs· Lovell Felix</a></li>                              
+          </ul>
+          <div class="nav-collapse">
+                    <ul class="nav">
+                        </ul>
+                        <ul class="nav pull-right">
+            <li class="dropdown">
+                <p class="dropdown-toggle navbar-text" data-toggle="dropdown" id="userDrop">
+                      <span class="icon-bar"></span><i class="icon-list"></i> More...   
+                        <a href="#"></a>
+                            <b class="caret"></b>
+                </p>
+                <ul class="dropdown-menu">
+                    <li><a href="http://lovellfelix.com"><i class="icon-home"></i> home</a></li>                
+                    <li><a href="http://blog.lovellfelix.com"><i class="icon-pencil"></i> blog</a></li>
+                    <li><a href="http://labs.lovellfelix.com"><i class="icon-wrench"></i> labs</a></li>
+                    <li><a href="http://linkedin.com/in/lovellfelix"><i class="icon-user"></i> resume</a></li>
+                </ul>
+            </li>
+        </ul></div>
+        </div>
+      </div>
+    </div>
+  <!-- Content
+       =============== -->  
 
         <!-- Add your site or application content here -->
+          <div id="wrap">
         <div class="container" ng-view></div>
+<!-- Footer
+================================================== -->
+ <div id="push"></div>
+    </div>
+    <div id="footer">
+      <div class="container">
+      <br />
+      <p class="pull-left">
+        &copy; 2012 <a href="http://lovellfelix.com" target="_bank">Lovell Felix</a></p>
+         <div class="pull-right">
+            <a href="http://linkedin.com/in/lovellfelix"><img src="http://lovellfelix.com/assets/img/linkedin_1.png"></a> 
+            <a href="http://facebook.com/lovell.felix" rel="nofollow" target="blank"><img src="http://lovellfelix.com/assets/img/facebook_1.png"></a>
+            <a href="http://twitter.com/lovellfelix"><img src="http://lovellfelix.com/assets/img/twitter_1.png"></a> 
+            <a href="http://gplus.to/lovell.felix" rel="nofollow" target="blank" title="+"><img src="http://lovellfelix.com/assets/img/google_1.png"></a>
+            <a href="http://blog.lovellfelix.com/rss" rel="nofollow" title="RSS"><img src="http://lovellfelix.com/assets/img/rss_1.png"></a>
+         </div>
+      </div>
+    </div>  
 
         <script src="scripts/vendor/angular.js"></script>
+		<script src="scripts/vendor/angular-resource.js"></script>
 
         <!-- build:js scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/detail.js"></script>
+        <script src="scripts/services/main.js"></script>
+
+        
+        <script src="http://lovellfelix.com/assets/js/bootstrap.js" type="text/javascript"></script> 
+        <script src="http://lovellfelix.com/assets/js/jquery.js" type="text/javascript"></script>
+        <script src="http://lovellfelix.com/assets/js/jquery.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-transition.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-alert.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-modal.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-dropdown.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-scrollspy.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-tab.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-tooltip.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-popover.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-button.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-collapse.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-carousel.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-typeahead.js"></script>
+        <script src="http://lovellfelix.com/assets/js/bootstrap-affix.js"></script>
+        <script src="http://lovellfelix.com/assets/js/holder/holder.js"></script>
+        <script src="http://lovellfelix.com/assets/js/google-code-prettify/prettify.js"></script>
+        <script src="scripts/controllers/detail.js"></script>
+        <script src="scripts/controllers/services.js"></script>
+        <script src="scripts/services/services.js"></script>
+        <script src="scripts/services/main.js"></script>
         <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-18508266-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
