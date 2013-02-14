@@ -1,0 +1,26 @@
+{
+	"id": "lnsta", 
+	"name": "lnsta", 
+    "description": "A simple and clean user interface web application designed for Instagram interaction on the Web", 
+    "additionalFeatures": "", 
+    "techUsed": [
+        "PHP · ", 
+        "Twitter Bootstrap · ", 
+        "Instagram API"	
+    ], 
+
+        "url": {
+        "demo_url":"http://lnsta.com",
+        "demo_title":"demo",
+        "source_url":"",
+        "source_title":"N/A :("},
+    
+	
+	"promo_img": "img/screenshot/lnsta.promo_img.png",
+    "screenshot": [
+        "img/screenshot/lnsta.s1.png", 
+        "img/screenshot/lnsta.s2.png",
+        "img/screenshot/lnsta.s3.png"
+    ]
+   
+}

@@ -1,0 +1,27 @@
+{
+    "test": "test", 
+	"id": "ems", 
+	"name": "Employee Management System", 
+    "description": "Employee Management System control Human Resources and personnel management. Advanced features make this application both flexible and easy-to-use!", 
+    "additionalFeatures": "Contour Display, Near Field Communications (NFC), Three-axis gyroscope, Anti-fingerprint display coating, Internet Calling support (VoIP/SIP)", 
+    "techUsed": [
+        "php · ", 
+        "mysql · ", 
+        "photoshop"	
+    ], 
+
+        "url": {
+        "demo_url":"http://demo.lovellfelix.com/ems",
+        "demo_title":"demo",
+        "source_url":"http://github.com/lovellfelix/ems",
+        "source_title":"code"},
+    
+	
+	"promo_img": "img/screenshot/ems-s1.png",
+    "screenshot": [
+        "img/screenshot/nexus-s.0.jpg", 
+        "img/screenshot/nexus-s.1.jpg", 
+        "img/screenshot/nexus-s.2.jpg"
+    ]
+   
+}

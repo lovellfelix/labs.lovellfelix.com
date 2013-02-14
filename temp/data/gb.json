@@ -1,0 +1,25 @@
+{
+	"id": "gb", 
+	"name": "Grenadian Buzz", 
+    "description": "An easy way to listen popular Grenadian Radio Stations overseas or on the go.", 
+    "additionalFeatures": "Contour Display, Near Field Communications (NFC), Three-axis gyroscope, Anti-fingerprint display coating, Internet Calling support (VoIP/SIP)", 
+    "techUsed": [
+        "Android · ", 
+        "Java · ", 
+        "PHP"	
+    ], 
+
+        "url": {
+        "demo_url":"https://play.google.com/store/apps/details?id=com.lovellfelix.grenadianbuzzz",
+        "demo_title":"download",
+        "source_url":"",
+        "source_title":"N/A :("},
+    
+	
+	"promo_img": "img/screenshot/gb.promo_img.png",
+    "screenshot": [
+        "img/screenshot/gb.s1.png", 
+        "img/screenshot/gb.s2.png"
+    ]
+   
+}

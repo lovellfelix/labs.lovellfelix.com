@@ -1,0 +1,89 @@
+<div class="container">
+	
+  <div class="m_content"></div>
+  
+<div class="row">
+  <div class="span12">
+ 
+
+<!--end here -->
+    <div class="row">
+      <div class="span2">	
+	  <!--Sidebar content-->
+<ul class="nav nav-list">
+  <li class="nav-header"><i class="icon-random"></i> CATEGORIES</li></li>
+  <li ng-class="active('all')"> <a ng-click="cat = 'all' "><i class="icon-asterisk"></i> All</a></li>
+  <li ng-class="active('web')" ><a ng-class="active('web')" ng-click="cat = 'web'"><i class="icon-asterisk"></i> WEB</a></li>
+  <li ng-class="active('mob')" ><a ng-class="active('mob')" ng-click="cat = 'mob'"><i class="icon-asterisk"></i> MOB</a></li>
+  <li ng-class="active('prnt')" ><a ng-class="active('rating')" ng-click="cat = 'prnt'"><i class="icon-asterisk"></i> PRNT</a></li>
+  <li class="divider"></li>
+
+  <div class="input-append">
+  <input ng-model="query" class="span2" id="appendedInput" type="text">
+  <span class="add-on"><i class="icon-search"></i></span>
+</div>
+
+
+  </ul>
+
+</ul>
+
+ </div>
+      <div class="span6 offset1">
+<!--Body content-->
+
+       
+               
+                  <div class="media" ng-repeat="item in pagedItems[currentPage] | orderBy:sortingOrder:reverse | filter:query">                        
+						<a class="pull-left" href="#/{{item.id}}">
+    <img class="media-object img-rounded" src="{{item.thumb}}" height="75" width="75">
+	</a>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="#/{{item.id}}">{{item.name}}</a></h4>
+    <p>{{item.snippet}}</p>
+  </div>
+                    </div>
+          
+                 <div class="pagination pull-right">
+                            <ul>
+                                <li ng-class="{disabled: currentPage == 0}">
+                                    <a href ng-click="prevPage()">« Prev</a>
+                                </li>
+                                <li ng-repeat="n in range(pagedItems.length)"
+                                    ng-class="{active: n == currentPage}"
+                                ng-click="setPage()">
+                                    <a href ng-bind="n + 1">1</a>
+                                </li>
+                                <li ng-class="{disabled: currentPage == pagedItems.length - 1}">
+                                    <a href ng-click="nextPage()">Next »</a>
+                                </li>
+                            </ul>
+                        </div>
+     </div>
+	  <div class="span2 offset1">
+<!--Graduated Projects-->
+
+  <li class="nav-header"><i class="text-warning icon-star"></i> Recent Grads</li>
+  
+
+<ul class="thumbnails" ng-repeat="things in items | filter:{status:'grad'}|limitTo:3">
+  <li class="span2">
+    <div class="thumbnail">
+      <a href="#/{{things.id}}"><img src="{{things.thumb}}" alt="{{things.name}}"></a>
+      <h6>{{things.name}}</h6>
+    </div>
+  </li>
+</ul>
+
+
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+          
+         

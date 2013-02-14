@@ -1,0 +1,49 @@
+Error: No module: labsApp
+
+  http://localhost:3501/scripts/vendor/d10639ae.angular.js:1058
+  http://localhost:3501/scripts/vendor/d10639ae.angular.js:999 in ensure
+  http://localhost:3501/scripts/vendor/d10639ae.angular.js:1230 in module
+  http://localhost:3501/scripts/vendor/d10639ae.angular.js:2699
+CACHE MANIFEST
+
+# Time: Thu Feb 14 2013 00:14:15 GMT-0600 (CST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js
+http://lovellfelix.com/assets/css/bootstrap.css
+http://lovellfelix.com/assets/css/font-awesome.css
+http://lovellfelix.com/assets/css/google-bootstrap.css
+http://lovellfelix.com/assets/css/lf.css
+http://lovellfelix.com/assets/img/facebook_1.png
+http://lovellfelix.com/assets/img/glyphicons-halflings.png
+http://lovellfelix.com/assets/img/google_1.png
+http://lovellfelix.com/assets/img/grid.png
+http://lovellfelix.com/assets/img/linkedin_1.png
+http://lovellfelix.com/assets/img/rss_1.png
+http://lovellfelix.com/assets/img/twitter_1.png
+http://www.google-analytics.com/ga.js
+scripts/5e543256.scripts.js
+scripts/vendor/b291a314.angular-resource.js
+scripts/vendor/d10639ae.angular.js
+styles/051c0509.main.css
+
+NETWORK:
+*

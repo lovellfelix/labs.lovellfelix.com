@@ -1,0 +1,25 @@
+{
+	"id": "iul", 
+	"name": "PHP Image Uploader & viewer", 
+    "description": "Clean and simple image uploader and viewer built with Twitter Bootstrap, Java script and PHP", 
+    "additionalFeatures": "", 
+    "techUsed": [
+        "PHP · ", 
+        "Twitter Bootstrap · "
+    ], 
+
+        "url": {
+        "demo_url":"http://demo.lovellfelix.com/iul",
+        "demo_title":"demo",
+        "source_url":"https://github.com/lovellfelix/PHP-image-uploader-and-viewer",
+        "source_title":"codes"},
+    
+	
+	"promo_img": "img/screenshot/iul.promo_img.png",
+    "screenshot": [
+        "img/screenshot/iul.s1.png", 
+        "img/screenshot/iul.s2.png",
+        "img/no-photo.png"
+    ]
+   
+}

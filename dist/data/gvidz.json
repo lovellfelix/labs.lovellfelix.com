@@ -1,0 +1,28 @@
+{
+	"id": "ttb", 
+	"name": "g-vidz.com", 
+    "description": "GTG-VIDZ.COM is the number one source for Grenadian videos. Specialize in short-form original content - from new, emerging talents and established heavyweights alike. Committed to deliver an exceptional entertainment experience by engaging and empowering our audience every step of the way", 
+    "additionalFeatures": "", 
+    "techUsed": [
+        "PHP · ", 
+        "MySQL · ", 
+        "Smarty · ",
+        "jQuery · ",
+        "Twitter Bootstap"
+    ], 
+
+        "url": {
+        "demo_url":"http://g-vidz.com",
+        "demo_title":"website",
+        "source_url":"",
+        "source_title":"n/a :("},
+    
+	
+	"promo_img": "img/screenshot/gvidz.promo_img.png",
+    "screenshot": [
+        "img/screenshot/gvidz.s1.png", 
+        "img/screenshot/gvidz.s2.png",
+        "img/screenshot/gvidz.s3.png"
+    ]
+   
+}
