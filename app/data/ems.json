@@ -19,9 +19,9 @@
 	
 	"promo_img": "img/screenshot/ems-s1.png",
     "screenshot": [
-        "img/screenshot/nexus-s.0.jpg", 
-        "img/screenshot/nexus-s.1.jpg", 
-        "img/screenshot/nexus-s.2.jpg"
+        "img/screenshot/ems-s1.png", 
+        "img/no-photo.png",
+        "img/no-photo.png"
     ]
    
 }
