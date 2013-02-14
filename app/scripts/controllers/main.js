@@ -2,7 +2,10 @@ var sortingOrder = 'age';
 function MainCtrl($scope, $filter, $http) {
 //TODO add parse support for json
 $http.get('data/project_list.json').success(function(data) {
-  $scope.thing = data;});
+$scope.thing = data;});
+$scope.active = function(x) {
+        return x == $scope.cat ? 'active' : '';
+    }
     // init
     $scope.sortingOrder = sortingOrder;
     $scope.reverse = false;

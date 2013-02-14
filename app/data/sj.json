@@ -1,0 +1,25 @@
+{
+	"id": "sj", 
+	"name": "Spice Jamz Radio", 
+    "description": "Radio Social Media Network", 
+    "additionalFeatures": "", 
+    "techUsed": [
+        "PHP · ",   
+        "MYSQL "	
+    ], 
+
+        "url": {
+        "demo_url":"",
+        "demo_title":"n/a :(",
+        "source_url":"",
+        "source_title":"n/a :("},
+    
+	
+	"promo_img": "img/no-photo.png",
+    "screenshot": [
+        "img/no-photo.png",
+        "img/no-photo.png",
+        "img/no-photo.png"
+    ]
+   
+}
